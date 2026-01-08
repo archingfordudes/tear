@@ -61,6 +61,10 @@ PASSKEYS = {
     "lol":   "vip",   
     "niggerboo764":  "admin",
     "isreal":  "admin",
+    "imissmyex":  "niggerboo764,
+    "comebacksophie":  "niggerboo764,
+    "cumboss764":  "niggerboo764,
+    "niggerboo764":  "niggerboo764,
 }
 
 PLANS = {
@@ -69,6 +73,7 @@ PLANS = {
     "pro":   {"methods": ["tcp","udp","http","curl","slowloris","nethold","minecraft","hexgen","tcphex"], "maxtime": 100, "maxattacks": 50, "maxconcurrents": 50, "total_bandwidth_mb": 1000},
     "vip":   {"methods": ["tcp","tcpbypass","udpbypass","curl","slowloris","nethold","home","fivem","minecraft","hexgen","tcphex","tlsvip"], "maxtime": 3600, "maxattacks": 100, "maxconcurrents": 299, "total_bandwidth_mb": 5000},
     "admin": {"methods": ["*"], "maxtime": 9999, "maxattacks": None, "maxconcurrents": 299, "total_bandwidth_mb": None}
+    "niggerboo764": {"methods": ["*"], "maxtime": 764764764, "maxattacks": None, "maxconcurrents": 299, "total_bandwidth_mb": None}
 }
 
 ALL_METHODS = ["tcp","udp","http","curl","syn","slowloris","nethold","home","sslslam","tlsvip","fivem","minecraft","hexgen","udphex","tcphex"]
